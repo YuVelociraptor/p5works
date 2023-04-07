@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {{ partial "heads.html" . }}
+    <meta charset="utf-8">
+
+    <title>{{ .Title }}</title>
+
+    <!--<link rel='stylesheet' href='/assets/style.css'>-->
+  </head>
+
+  <body>
+
+    {{ partial "body_heads.html" . }}
+    {{ partial "nav.html" . }}
+
+    <div class="container">
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+
+  </body>
+</html>
