@@ -1,2 +1,26 @@
-# Mac
+# .gitignore for Hugo projects
+
+# システムファイル
 .DS_Store
+Thumbs.db
+
+# ビルドディレクトリ
+/public/
+/resources/_gen/
+
+# テンポラリディレクトリ
+/tmp/
+
+# Hugoのキャッシュファイル
+.hugo_build.lock
+
+# エディタの一時ファイル
+*.swp
+*.swo
+*.tmp
+
+# ユーザー設定ファイル
+config.user.*
+
+# node_modules
+/node_modules/
