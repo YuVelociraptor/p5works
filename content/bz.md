@@ -8,4 +8,4 @@ draft: false
 
 <p>Test</p>
 
-{{< load-js src="/assets/js/bz.js" >}}
+{{< load-js src="js/bz.js" >}}
