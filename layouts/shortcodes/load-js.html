@@ -1,0 +1,4 @@
+{{ $jsFile := .Get "src" }}
+{{ $jsURL := resources.Get $jsFile | relURL }}
+<script src="{{ $jsURL }}"></script>
+<p>test</p>
