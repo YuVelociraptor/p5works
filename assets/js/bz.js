@@ -18,7 +18,9 @@ function setup() {
   COLOR_3 = color(153, 136, 236);
   COLOR_4 = color(198, 146, 226);
 
-  createCanvas(800, 800);
+  let canvas = createCanvas(800, 800);
+  canvas.parent("canvas-container");
+
   w = 5;
 
   // Calculate columns and rows
