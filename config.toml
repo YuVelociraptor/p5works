@@ -6,3 +6,29 @@ title = 'My New Hugo Site'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "ホーム"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "アバウト"
+    url = "/about/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "ブログ"
+    url = "/blog/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "コンタクト"
+    url = "/contact/"
+    weight = 40
