@@ -11,14 +11,14 @@ title = 'My New Hugo Site'
 
   [[menu.main]]
     identifier = "home"
-    name = "ホーム"
+    name = "Home"
     url = "/"
     weight = 10
 
   [[menu.main]]
-    identifier = "about"
-    name = "アバウト"
-    url = "/about/"
+    identifier = "woks"
+    name = "Works"
+    url = "/works/"
     weight = 20
 
   [[menu.main]]
