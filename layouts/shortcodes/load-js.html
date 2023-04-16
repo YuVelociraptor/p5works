@@ -1,0 +1,3 @@
+{{ $jsFile := .Get "src" }}
+{{ $p5 := resources.Get $jsFile | minify | fingerprint }}
+<script src="{{ $p5.Permalink }}"></script>

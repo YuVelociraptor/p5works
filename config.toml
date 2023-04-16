@@ -1,3 +1,34 @@
 baseURL = 'http://example.org/'
-languageCode = 'en-us'
+languageCode = 'ja'
 title = 'My New Hugo Site'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "woks"
+    name = "Works"
+    url = "/works/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "ブログ"
+    url = "/blog/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "コンタクト"
+    url = "/contact/"
+    weight = 40
