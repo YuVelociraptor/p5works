@@ -5,4 +5,4 @@ draft: true
 ---
 
 # Works
-- Game of Life
+- [Cellular Automaton](/works/ca/)
