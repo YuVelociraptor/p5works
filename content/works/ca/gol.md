@@ -6,5 +6,5 @@ draft: true
 
 # Game of Life
 
-{{< load-js src="js/gol.js" >}}
+{{< load-js src="js/ca/gol.js" >}}
 <div id="canvas-container"></div>

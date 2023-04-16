@@ -6,7 +6,7 @@ draft: false
 
 # BZ反応1
 
-{{< load-js src="js/bz.js" >}}
+{{< load-js src="js/ca/bz.js" >}}
 <div id="canvas-container"></div>
 
 ## 解説
