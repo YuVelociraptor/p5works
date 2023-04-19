@@ -111,8 +111,8 @@ const p5Setup = function (p5){
     let i = 0;
 
     p5.setup = () => {
-        const canvas = p5.createCanvas(500, 500, p5.WEBGL);
-        canvas.parent('canvas');
+        let canvas = p5.createCanvas(500, 500, p5.WEBGL);
+        canvas.parent('canvas-container');
 
         p5.background(255, 255, 200);
 
@@ -136,5 +136,3 @@ function drawC60(p5){
 
     carbonArray.forEach(c => c.drawLine(p5, 50));
 }
-
-export {p5Setup};

@@ -6,3 +6,5 @@ draft: true
 
 # Works
 - [Cellular Automaton](/works/ca/)
+- [三角関数](/works/tf/)
+- [化学](/works/chemical/)
